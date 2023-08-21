@@ -1,0 +1,38 @@
+{
+  "name": "itransition-task-7-back",
+  "version": "1.0.0",
+  "description": "itransition-task-7-front",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "serve": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexXG0152/itransition-task-7-back.git"
+  },
+  "author": "AlexXG0152",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexXG0152/itransition-task-7-back/issues"
+  },
+  "homepage": "https://github.com/AlexXG0152/itransition-task-7-back#readme",
+  "dependencies": {
+    "@types/socket.io": "^3.0.2",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.4.3",
+    "socket.io": "^4.7.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.5.0",
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
